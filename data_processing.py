@@ -13,7 +13,7 @@ import random
 #           CSV Notes: must contain a column titled "regular space", a column titled "free space", and my contain additional columns
 #               regular space: contains the text for the squares for the bingo board, at a minimum must contain enough entries to populate all the squares of the bingo board or you will get an error
 #               free space: contains the text for the free space square
-#               additional column: title of column needs to be the exact same(case sensitive) as an entry in the recular space column, when that entry is selected it is replaced with a random entry from this column
+#               additional column: title of column needs to be the exact same(case sensitive) as an entry in the regular space column, when that entry is selected it is replaced with a random entry from this column
 #       size: size of the bingo board, note board is assumed to be a square with a side length of size
 #   outputs:
 #       Returns: the list of the text for the bingo board
